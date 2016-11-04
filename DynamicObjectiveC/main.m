@@ -15,7 +15,8 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-
+        
+        
         
     }
     return 0;
@@ -42,4 +43,18 @@ void isMemberOrKind() {
         
     }
 
+}
+
+void selectors() {
+    id object = [[NSArray alloc] init];
+    
+    SEL selector = @selector(addObject:);
+    
+    if ([object respondsToSelector:selector]) {
+        [object performSelector:selector withObject:@"String"];
+        //            [object addObject:@"String"];
+        NSLog(@"does respond");
+    } else {
+        NSLog(@"doesn't respond");
+    }
 }
