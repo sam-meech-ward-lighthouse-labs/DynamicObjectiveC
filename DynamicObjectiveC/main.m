@@ -7,11 +7,39 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
+#import "Person+Friends.h"
+#import "NSArray+Random.h"
+#import "Starbucks.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+
+        
     }
     return 0;
+}
+
+void isMemberOrKind() {
+    NSArray *array = @[@1, @"string", [NSObject new], @3, @"sf"];
+    
+    for (int i = 0; i < array.count; ++i) {
+        
+        id object = array[i];
+        
+        BOOL isMember = [object isMemberOfClass:[NSObject class]];
+        
+        if (isMember) {
+            NSLog(@"object is member of NSObject: %@", object);
+        }
+        
+        BOOL isKind = [object isKindOfClass:[NSObject class]];
+        
+        if (isKind) {
+            NSLog(@"object is kind of NSObject: %@", object);
+        }
+        
+    }
+
 }
