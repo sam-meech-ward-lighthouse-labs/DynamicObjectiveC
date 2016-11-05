@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		227AF8141DCCEA0800C844E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 227AF8131DCCEA0800C844E9 /* main.m */; };
+		227AF81C1DCCF08900C844E9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 227AF81B1DCCF08900C844E9 /* Person.m */; };
+		227AF81F1DCCF10300C844E9 /* Person+Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = 227AF81E1DCCF10300C844E9 /* Person+Friends.m */; };
+		227AF8221DCCF30100C844E9 /* NSArray+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 227AF8211DCCF30100C844E9 /* NSArray+Random.m */; };
+		227AF8261DCCFB0700C844E9 /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = 227AF8251DCCFB0700C844E9 /* Drink.m */; };
+		227AF8291DCCFB5C00C844E9 /* Starbucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 227AF8281DCCFB5C00C844E9 /* Starbucks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		227AF8101DCCEA0800C844E9 /* DynamicObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		227AF8131DCCEA0800C844E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		227AF81A1DCCF08900C844E9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		227AF81B1DCCF08900C844E9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		227AF81D1DCCF10300C844E9 /* Person+Friends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Friends.h"; sourceTree = "<group>"; };
+		227AF81E1DCCF10300C844E9 /* Person+Friends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Friends.m"; sourceTree = "<group>"; };
+		227AF8201DCCF30100C844E9 /* NSArray+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Random.h"; sourceTree = "<group>"; };
+		227AF8211DCCF30100C844E9 /* NSArray+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Random.m"; sourceTree = "<group>"; };
+		227AF8231DCCFAF100C844E9 /* CoffeeShopDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopDelegate.h; sourceTree = "<group>"; };
+		227AF8241DCCFB0700C844E9 /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
+		227AF8251DCCFB0700C844E9 /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
+		227AF8271DCCFB5C00C844E9 /* Starbucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Starbucks.h; sourceTree = "<group>"; };
+		227AF8281DCCFB5C00C844E9 /* Starbucks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Starbucks.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				227AF8131DCCEA0800C844E9 /* main.m */,
+				227AF81A1DCCF08900C844E9 /* Person.h */,
+				227AF81B1DCCF08900C844E9 /* Person.m */,
+				227AF81D1DCCF10300C844E9 /* Person+Friends.h */,
+				227AF81E1DCCF10300C844E9 /* Person+Friends.m */,
+				227AF8201DCCF30100C844E9 /* NSArray+Random.h */,
+				227AF8211DCCF30100C844E9 /* NSArray+Random.m */,
+				227AF8271DCCFB5C00C844E9 /* Starbucks.h */,
+				227AF8281DCCFB5C00C844E9 /* Starbucks.m */,
+				227AF8231DCCFAF100C844E9 /* CoffeeShopDelegate.h */,
+				227AF8241DCCFB0700C844E9 /* Drink.h */,
+				227AF8251DCCFB0700C844E9 /* Drink.m */,
 			);
 			path = DynamicObjectiveC;
 			sourceTree = "<group>";
@@ -120,7 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227AF8261DCCFB0700C844E9 /* Drink.m in Sources */,
+				227AF81C1DCCF08900C844E9 /* Person.m in Sources */,
+				227AF8291DCCFB5C00C844E9 /* Starbucks.m in Sources */,
+				227AF81F1DCCF10300C844E9 /* Person+Friends.m in Sources */,
 				227AF8141DCCEA0800C844E9 /* main.m in Sources */,
+				227AF8221DCCF30100C844E9 /* NSArray+Random.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
